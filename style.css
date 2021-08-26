@@ -1,0 +1,69 @@
+#video{
+    background-image: url("./assets/students.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 60vw;
+    width: 100vw;
+}
+
+#video h1{
+    color: white;
+    background-color: black;
+    opacity: 0.75;
+}
+
+#learnMore{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+#pageJump img{
+    border-radius: 100%;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: darkslategrey;
+}
+
+#logo{
+    float: left;
+}
+
+#rightLinks{
+    float: right;
+}
+
+#rightLinks a{
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    display: inline-block;
+}
+
+#schedule{
+    background-color: lightskyblue;
+    border-left: 1% solid white;
+    border-right: 1% solid white;
+}
+
+#apply{
+    background-color: red;
+    border-left: 1% solid white;
+    border-right: 1% solid white;
+}
+
+#academyInformation h2{
+    color: lightskyblue;
+}
+
+#courseInformationWrapper h1{
+    color: lightskyblue;
+}
+
+#magGlass{
+    width: 45px;
+    height: 45px;
+}
