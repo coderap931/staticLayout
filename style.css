@@ -1,6 +1,12 @@
 body{
     margin: 0;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
 }
+
+h2{
+    margin-bottom: 0;
+}
+
 #video{
     background-image: url("./assets/students.jpg");
     background-position: center;
@@ -17,10 +23,10 @@ body{
     background-color: black;
     opacity: 0.75;
     text-align: center;
-    width: 45%;
+    font-size: 55px;
+    width: 50%;
     margin-top: 20%;
     margin-left: 25%;
-    margin-bottom: 1%;
     position: absolute;
 }
 
@@ -31,8 +37,10 @@ body{
     text-align: center;
     width: 15%;
     margin-left: 25%;
-    margin-top: 23%;
+    margin-top: 24%;
     position: absolute;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    font-size: 32px;
 }
 
 #pageJump{
@@ -61,7 +69,7 @@ body{
 
 #rightLinks{
     float: right;
-    min-width: 53%;
+    min-width: 45%;
 }
 
 #rightLinks a{
@@ -72,6 +80,9 @@ body{
     display: inline-grid;
     justify-content: center;
     align-items: center;
+    font-size: 13px;
+    font-family: 'Lucida Sans', monospace;
+    font-weight: bold;
 }
 
 #schedule{
@@ -92,11 +103,13 @@ body{
 
 #courseInformationWrapper h1{
     color: lightskyblue;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    font-size: 60px;
 }
 
 #magGlass{
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
 }
 
 #courseInformationWrapper{
@@ -105,7 +118,7 @@ body{
     width: 95vw;
     padding: 2%;
     text-align: center;
-    background-color: lightgrey;
+    background-color: rgb(236, 243, 243);
 }
 
 .classInformation{
@@ -117,8 +130,20 @@ body{
     background-color: white;
 }
 
+.classInformation h2{
+    text-align: left;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
 .classInformation p{
-    padding: 2%;
+    text-align: left;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    font-size: 21px;
 }
 
 .classInformation a{
@@ -128,6 +153,8 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    font-size: 21px;
 }
 
 #academyInformation{
@@ -138,18 +165,28 @@ body{
 }
 
 #blurb{
-    margin-left: 30%;
+    margin-left: 25%;
 }
 #blurb img{
     float: left;
 }
 
-#blurb p, #blurb h2{
-    width: 45%;
-    margin-top: 2%;
+#blurb h2{
+    width: 70%;
+    margin-top: 4%;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    font-size: 36px;
 }
 
+#blurb p{
+    width: 67%;
+    margin-top: 2%;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
 #partners{
     margin-top: 7%;
     text-align: center;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    font-size: 23px;
 }
